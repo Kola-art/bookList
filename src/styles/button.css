@@ -1,0 +1,12 @@
+.button {
+  cursor: pointer;
+  width: 70px;
+  padding: 3px;
+}
+
+@media (max-width: 550px) {
+  .button {
+    width: 45px;
+  }
+}
+/*# sourceMappingURL=button.css.map */

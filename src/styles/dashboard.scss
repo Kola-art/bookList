@@ -1,0 +1,47 @@
+.dashboard {
+  max-width: 1200px;
+  margin: 20px auto 0 auto;
+  background-color: bisque;
+  text-align: left;
+  &__table {
+    width: 100%;
+    border: 1px solid gray;
+    th{
+      background-color: goldenrod;
+      text-align: center;
+      border: 1px solid gray;
+      margin: 5px 0;
+    }
+    &_tr {
+      td{
+        border: 1px solid gray;
+      }
+    }
+    &_btn{
+      display: flex;
+      justify-content: space-around;
+      cursor: pointer;
+    }
+  }
+  &__link {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 550px) {
+  .dashboard {
+    &__table {
+      th{
+        font-size: 11px;
+      }
+      &_tr {
+        td{
+          font-size: 11px;
+        }
+      }
+      &_btn{
+        flex-direction: column;
+      }
+    }
+  }
+}

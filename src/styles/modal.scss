@@ -1,0 +1,16 @@
+.modal {
+  position: absolute;
+  display: none;
+  width: 100px;
+  height: 40px;
+  background-color: yellowgreen;
+  color: green;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.show {
+  display: block;
+  top: 87%;
+  left: 33%;
+}
