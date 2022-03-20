@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../styles/modal.css'
 
-const Modal = ({modal, setModal, addModal, setAddModal}) => {
+const Modal = ({modal, setModal}) => {
   let modalClass = ['modal'];
 
   const showModal = () => {
